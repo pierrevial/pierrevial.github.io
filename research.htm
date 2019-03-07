@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+<meta charset="utf-8">
+
+<title>Research page of Pierre Vial</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="author" content="Pierre Vial">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+<link href="css/bootstrap-theme.min.css" rel="stylesheet">
+<link href="theme.css" rel="stylesheet">
+</head>
+
+  <body role="document">
+
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.htm">Pierre Vial</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+	    <li ><a href="index.htm">Main</a></li>
+	   <li><a href="defense.htm">PhD Defense</a></li>
+<li><a href="teaching.htm">Teaching</a></li>
+<li class="active"><a href="research.htm">Research</a></li>
+<li><a href="talks.htm">Talks</a></li>
+<!--
+<li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Talks <span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="talks_date.htm">By date</a></li>
+				<li class="divider"></li>
+                <li class="dropdown-header">By theme</li>
+                <li><a href="talks_theme_semverif.htm">Semantics and Verification</a></li>
+                <li><a href="talks_theme_combi.htm">Combinatorics of words</a></li>
+              </ul>
+            </li>
+<li><a href="gdt.htm">Working group on Semantics and Verification</a></li> -->
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+<div class="container theme-showcase" role="main">
+
+<div class="page-header"></br>
+<h1>Publications</h1>
+</div>
+
+<ul style="float:left">
+  <li><a href="klopQ-vial.pdf"><b> Infinitary Intersection Types as Sequences: a New Answer to Klop's Question [LICS17]</b></a>:
+ <a href="klopQ-short-vial.pdf">short (05.10.2017)</a> and <a href="klopQ-vial.pdf">long (05.03.2017)</a> versions.<br>
+<i>Abstract:</i> We use infinite sequences to represent intersection and define a coinductive intersection type sytem that characterizes the set of weakly normalizing terms of an infinitary calculus. A finite term is normalizing in this calculus if its Böhm tree does not hold bottom.
+
+  </li><br><br>
+  <li> <a href="lmu17-short-kesner-vial.pdf"><b> Types as Resources for Classical Natural Deduction [FSCD17, with Delia Kesner]</b></a>:
+ <a href="lmu17-short-kesner-vial.pdf">short version</a>. <br>
+ <i>Abstract:</i> We define two resource aware typing systems for the λ μ -calculus based on non-idempotent intersection and union types. The non-idempotent approach provides very simple combinatorial arguments - based on decreasing measures of type derivations– to characterize head and strongly normalizing terms. Moreover, typability provides upper bounds for the length of head-reduction sequences and maximal reduction sequences.<br>
+ A longer version of this paper is available on Delia's page.
+    </li> <br><br>
+
+
+<li> <a href="intersection-types-mazza-pellissier-vial.pdf"><b> Polyadic Approximations, Fibrations and Intersection Types [POPL18, with Damiano Mazza and Luc Pellissier]</b></a>: <br>
+  Starting from an exact correspondence between linear approximations and non-idempotent intersection types, we develop a general framework for building systems of intersection types characterizing normalization properties. We show how this construction, which uses in a fundamental way Melliès and Zeilberger’s “type systems as functors” viewpoint, allows us to recover equivalent versions of every well known intersection type system (including Coppo and Dezani’s original system, as well as its non-idempotent variants independently introduced by Gardner and de Carvalho). We also show how new systems of intersection types may be built almost automatically in this way.
+</li><br><br>
+<li> <a href="infinitary-relational-model-pvial.pdf"><b> Every term is meaningful in the infinitary relation model [LICS18]</b></a> Infinite types and formulas are known to have really curious and unsound behaviors. For instance, they allow to type Omega, the auto-autoapplication and they thus do not ensure any form of normalization/productivity. Moreover, in most infinitary frameworks, it is not difficult to define a type R that can be assigned to every lambda-term. However, these observations do not say much about what coinductive (i.e. infinitary) type grammars are able to provide: it is for instance very difficult to know what types (besides $R$) can be assigned to a given term in this setting. We begin with a discussion on the expressivity of different forms of infinite types.
+%We see that the non-idempotent intersection types, whose resource-awareness makes them the good framework to study infinitary typing. 
+Then, using the resource-awareness of sequential intersection types (system S) and tracking, we prove that infinite types are able to characterize the arity of every lambda-term and that, in the infinitary extension of the relational model, every term has a ``meaning'' i.e. a non-empty denotation. From the technical point of view, we must deal with the total lack of guarantee of productivity for typable terms: we do so by importing methods inspired by first order model theory.
+</a>
+  </ul>
+<br>
+
+
+<div class="page-header"></br>
+<h1>Submitted</h1>
+</div>
+
+<ul style="float:left">
+
+  <li><a href="surj-coll-vial.pdf"><b>Reduction paths without permutations, or the expressive power of sequence types </b></a> (outdated <a href="surj-collapse-vial.pdf">long (05.10.2017)</a> version here).  <br>
+<i>Abstract:</i>  The derivations of System S, whose intersection types are sequential, naturally collapses on R, the coinductive version of Gardner/de Carvalho's quantitive type system, featuring multisets as intersection type. We prove that this collapse is surjective : every derivation of R is the collapse of a derivation of S and we prove that we can capture every reduction path.</li><br><br>
+  <li>
+    <a href="hp-pvial.pdf"><b>Sequence types for hereditary permutators</b></a>. Using an extension of system S, we characterize the set of hereditary permutators with a unique type. This gives a positive answer to <a href="http://tlca.di.unito.it/opltlca/">Problem 20 of TLCA</a> in the coinductive case.
+  </li>  
+</ul></br></br>
+
+
+<!--
+<div class="page-header"></br> 
+<h1>Thesis</h1>
+</div>
+
+<ul style="float:left">
+<li><a> Etudes des automates en Ludique, Master thesis.</a></li>
+</ul>
+
+<div class="page-header"></br>
+<h1>Talks</h1>
+</div>
+
+<ul style="float:left">
+<li><a href="SHONAN15-Slides.pdf"> On the proof theory of circular proofs, Shonan Meeting 2015 (HOMC), Tokyo. </a></li> 
+<li><a href="CSL15-Slides.pdf"> Least and greatest fixed points in Ludics, CSL 2015, Berlin.</a></li>
+<li><a href="FOSSACS15-Slides.pdf"> On the meaning of logical dependencies, FoSSaCS 2015, London.</a></li> 
+</ul></br>
+
+</div> -->
+
+</body>
+
+</html>
