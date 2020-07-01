@@ -59,25 +59,44 @@
 </div>
 
 <ul style="float:left">
-  <li><a href="klopQ-vial.pdf"><b> Infinitary Intersection Types as Sequences: a New Answer to Klop's Question [LICS17]</b></a>:
- <a href="klopQ-short-vial.pdf">short (05.10.2017)</a> and <a href="klopQ-vial.pdf">long (05.03.2017)</a> versions.<br>
-<i>Abstract:</i> We use infinite sequences to represent intersection and define a coinductive intersection type sytem that characterizes the set of weakly normalizing terms of an infinitary calculus. A finite term is normalizing in this calculus if its Böhm tree does not hold bottom.
 
-  </li><br><br>
-  <li> <a href="lmu17-short-kesner-vial.pdf"><b> Types as Resources for Classical Natural Deduction [FSCD17, with Delia Kesner]</b></a>:
- <a href="lmu17-short-kesner-vial.pdf">short version</a>. <br>
+
+  <li><a href="kesner-vial-exact-lmu.pdf"><b> Persistent and Consuming Types for Classical Logic [LiCS'20]</b></a> (joint work with <a href="https://www.irif.fr/~kesner/">Delia Kesner</a>)<br> We use a <i>non-idempotent</i> intersection and <i>union</i> type system to capture exact measures of evaluation in the λμ-calculus. These exact measures correspond to the <i>number of evaluation steps</i> needed to obtain the normal form, and the <i>size of this normal form</i>. The λμ-calculus is a computational interpretation of <i>classical</i> natural deduction. We improve and extend previous works giving exact measures in the λ-calculus. Three evalutation strategies are considered: the head, the leftmost-outermost and the maximal strategies, the last one computing a longest reduction sequence and being associated to strong normalization.</li><br><br>
+
+
+<li> <a href="hp-pvial.pdf"><b> Sequence Types for Hereditary Permutators [FSCD'19]</b></a><br> The invertible terms in Scott’s model  are known as the hereditary permutators. Equivalently, they are terms which are invertible up to βη-conversion with r spect to the composition of the λ-terms. Finding a type-theoretic characterizat on to the set of hereditary permutators was problem # 20 of TLCA list of problems. In 2008, Tatsuta proved that this was not possible with an inductive type system. Building on previous work, we use an infinitary intersection type system b sed on sequences (i.e., families of types indexed by integers) to characterize  ereditary permutators with a unique type. This gives a positive answer to the problem in the coinductive case.</li><br><br>
+
+<li> <a href="kesner-vial-upper-bound-lmu-lmcs.pdf"><b>Non-Idempotent Types for Classical Calculi in Natural Deduction Style [LMCS, with Delia Kesner]</b></a><br>
+We define two resource aware typing systems for the λμ-calculus based on non-idempotent intersection and union types. The non-idempotent approach provides very simple combinatorial arguments to characterize head and strongly normalizing terms. Moreover, typability provides upper bounds for the lengths of the head-reduction and the maximal reduction sequences to normal form.<br>
+In the second part of this paper, the λμ-calculus is refined to a small-step calculus called λμs , which is inspired by the substitution at a distance paradigm. The λμs-calculus turns out to be compatible with a natural extension of the non-idempotent interpretations of λμ, i.e., λμs -reduction preserves and decreases typing derivations in an extended appropriate typing system. We thus derive a simple arithmetical characterization of strongly λμs -normalizing terms by means of typing.</li><br><br>
+
+
+
+    
+<li> <a href="infinitary-relational-model-pvial.pdf"><b> Every term is meaningful in the infinitary relation model [LiCS'18]</b></a><br>Infinite types and formulas are known to have really curious and unsound behaviors. For instance, they allow to type Omega, the auto-autoapplication and they thus do not ensure any form of normalization/productivity. Moreover, in most infinitary frameworks, it is not difficult to define a type R that can be assigned to every lambda-term. However, these observations do not say much about what coinductive (i.e. infinitary) type grammars are able to provide: it is for instance very difficult to know what types (besides $R$) can be assigned to a given term in this setting. We begin with a discussion on the expressivity of different forms of infinite types.
+%We see that the non-idempotent intersection types, whose resource-awareness makes them the good framework to study infinitary typing. 
+Then, using the resource-awareness of sequential intersection types (system S) and tracking, we prove that infinite types are able to characterize the arity of every lambda-term and that, in the infinitary extension of the relational model, every term has a ``meaning'' i.e. a non-empty denotation. From the technical point of view, we must deal with the total lack of guarantee of productivity for typable terms: we do so by importing methods inspired by first order model theory.</li><br><br>
+
+
+  
+<li> <a href="intersection-types-mazza-pellissier-vial.pdf"><b> Polyadic Approximations, Fibrations and Intersection Types [POPL'18, with Damiano Mazza and Luc Pellissier]</b></a>: <br>
+  Starting from an exact correspondence between linear approximations and non-idempotent intersection types, we develop a general framework for building systems of intersection types characterizing normalization properties. We show how this construction, which uses in a fundamental way Melliès and Zeilberger’s “type systems as functors” viewpoint, allows us to recover equivalent versions of every well known intersection type system (including Coppo and Dezani’s original system, as well as its non-idempotent variants independently introduced by Gardner and de Carvalho). We also show how new systems of intersection types may be built almost automatically in this way.
+</li><br><br>
+
+
+
+  <li> <a href="lmu17-short-kesner-vial.pdf"><b> Types as Resources for Classical Natural Deduction [FSCD'17, with Delia Kesner]</b></a>:
+    <br>
  <i>Abstract:</i> We define two resource aware typing systems for the λ μ -calculus based on non-idempotent intersection and union types. The non-idempotent approach provides very simple combinatorial arguments - based on decreasing measures of type derivations– to characterize head and strongly normalizing terms. Moreover, typability provides upper bounds for the length of head-reduction sequences and maximal reduction sequences.<br>
  A longer version of this paper is available on Delia's page.
     </li> <br><br>
 
+  <li><a href="klopQ-vial.pdf"><b> Infinitary Intersection Types as Sequences: a New Answer to Klop's Question [LICS'17]</b></a>:
+ <a href="klopQ-short-vial.pdf">short (05.10.2017)</a> and <a href="klopQ-vial.pdf">long (05.03.2017)</a> versions.<br>
+<i>Abstract:</i> We use infinite sequences to represent intersection and define a coinductive intersection type sytem that characterizes the set of weakly normalizing terms of an infinitary calculus. A finite term is normalizing in this calculus if its Böhm tree does not hold bottom.
+  </li><br><br>
 
-<li> <a href="intersection-types-mazza-pellissier-vial.pdf"><b> Polyadic Approximations, Fibrations and Intersection Types [POPL18, with Damiano Mazza and Luc Pellissier]</b></a>: <br>
-  Starting from an exact correspondence between linear approximations and non-idempotent intersection types, we develop a general framework for building systems of intersection types characterizing normalization properties. We show how this construction, which uses in a fundamental way Melliès and Zeilberger’s “type systems as functors” viewpoint, allows us to recover equivalent versions of every well known intersection type system (including Coppo and Dezani’s original system, as well as its non-idempotent variants independently introduced by Gardner and de Carvalho). We also show how new systems of intersection types may be built almost automatically in this way.
-</li><br><br>
-<li> <a href="infinitary-relational-model-pvial.pdf"><b> Every term is meaningful in the infinitary relation model [LICS18]</b></a> Infinite types and formulas are known to have really curious and unsound behaviors. For instance, they allow to type Omega, the auto-autoapplication and they thus do not ensure any form of normalization/productivity. Moreover, in most infinitary frameworks, it is not difficult to define a type R that can be assigned to every lambda-term. However, these observations do not say much about what coinductive (i.e. infinitary) type grammars are able to provide: it is for instance very difficult to know what types (besides $R$) can be assigned to a given term in this setting. We begin with a discussion on the expressivity of different forms of infinite types.
-%We see that the non-idempotent intersection types, whose resource-awareness makes them the good framework to study infinitary typing. 
-Then, using the resource-awareness of sequential intersection types (system S) and tracking, we prove that infinite types are able to characterize the arity of every lambda-term and that, in the infinitary extension of the relational model, every term has a ``meaning'' i.e. a non-empty denotation. From the technical point of view, we must deal with the total lack of guarantee of productivity for typable terms: we do so by importing methods inspired by first order model theory.<br><br>
-</a>
+
   </ul>
 <br><br>
 
