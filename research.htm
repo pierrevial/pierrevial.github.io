@@ -61,7 +61,10 @@
 <ul style="float:left">
 
 
-  <li><a href="kesner-vial-exact-lmu.pdf"><b> Persistent and Consuming Types for Classical Logic [LiCS'20]</b></a> (joint work with <a href="https://www.irif.fr/~kesner/">Delia Kesner</a>)<br> We use a <i>non-idempotent</i> intersection and <i>union</i> type system to capture exact measures of evaluation in the λμ-calculus. These exact measures correspond to the <i>number of evaluation steps</i> needed to obtain the normal form, and the <i>size of this normal form</i>. The λμ-calculus is a computational interpretation of <i>classical</i> natural deduction. We improve and extend previous works giving exact measures in the λ-calculus. Three evalutation strategies are considered: the head, the leftmost-outermost and the maximal strategies, the last one computing a longest reduction sequence and being associated to strong normalization.</li><br><br>
+  <li><a href="kesner-vial-exact-lmu.pdf"><b> Persistent and Consuming Types for Classical Logic [LiCS'20]</b></a> (joint work with <a href="https://www.irif.fr/~kesner/">Delia Kesner</a>)<br> We use a <i>non-idempotent</i> intersection and <i>union</i> type system to capture exact measures of evaluation in the λμ-calculus. These exact measures correspond to the <i>number of evaluation steps</i> needed to obtain the normal form, and the <i>size of this normal form</i>. The λμ-calculus is a computational interpretation of <i>classical</i> natural deduction. We improve and extend previous works giving exact measures in the λ-calculus. Three evalutation strategies are considered: the head, the leftmost-outermost and the maximal strategies, the last one computing a longest reduction sequence and being associated to strong normalization.
+There is a <a href="talks.htm">video</a> of the talk.<br>
+  </li>
+  <br><br>
 
 
 <li> <a href="hp-pvial.pdf"><b> Sequence Types for Hereditary Permutators [FSCD'19]</b></a><br> The invertible terms in Scott’s model  are known as the hereditary permutators. Equivalently, they are terms which are invertible up to βη-conversion with r spect to the composition of the λ-terms. Finding a type-theoretic characterizat on to the set of hereditary permutators was problem # 20 of TLCA list of problems. In 2008, Tatsuta proved that this was not possible with an inductive type system. Building on previous work, we use an infinitary intersection type system b sed on sequences (i.e., families of types indexed by integers) to characterize  ereditary permutators with a unique type. This gives a positive answer to the problem in the coinductive case.</li><br><br>
@@ -120,6 +123,17 @@ Then, using the resource-awareness of sequential intersection types (system S) a
 </div>
 
 <ul style="float:left">
+  <li> <a href="https://arxiv.org/abs/2204.02643"><b>Modular pre-processing for automated reasoning in dependent type theory</b></a>, with <a href="https://valentinblot.org/pro/">V. Blot</a>, D. Cousineau, Enzo Crance, L. Dubois de Prisque, <a href="https://www.lri.fr/~keller/">C. Keller</a>, <a href="http://people.rennes.inria.fr/Assia.Mahboubi/">A. Mahboubi</a>. <br>
+<i>Abstract</i>: The power of modern automated theorem provers can be put at the service of interactive theorem proving. But this requires in particular bridging the expressivity gap between the logics these provers are respectively based on. This paper presents the implementation of a modular suite of pre-processing transformations, which incrementally bring certain formulas expressed in the Calculus of Inductive Constructions closer to the first-order logic of Satifiability Modulo Theory solvers. These transformations address issues related to the axiomatization of inductive types, to polymorphic definitions or to the different implementations of a same theory signature. This suite is implemented as a plugin for the Coq proof assistant, and integrated to the SMTCoq toolchain.<br><br>
+    
+  <li><a href="https://arxiv.org/pdf/2102.07515.pdf"><b>Sequences and infinitary intersection types</b></a>.
+We introduce a new representation of non-idempotent intersection types, using sequences (families indexed with natural numbers) instead of lists or multisets. This allows scaling up intersection type theory to the infinitary λ-calculus.
+    We thus characterize hereditary head normalization<!--, which gives a positive answer to a question known as Klop’s Problem-->. 
+    On our way, we use non-idempotent
+intersection to retrieve some well-known results on infinitary terms.
+    <br><br>
+
+   
   <li><a href="surj-coll-vial.pdf"><b>Reduction paths without permutations, or the expressive power of sequence types </b></a> (outdated <a href="surj-collapse-vial.pdf">long (05.10.2017)</a> version here).  <br>
 <i>Abstract:</i>  The derivations of System S, whose intersection types are sequential, naturally collapses on R, the coinductive version of Gardner/de Carvalho's quantitive type system, featuring multisets as intersection type. We prove that this collapse is surjective : every derivation of R is the collapse of a derivation of S and we prove that we can capture every reduction path.</li><br><br>
 </ul></br></br>
